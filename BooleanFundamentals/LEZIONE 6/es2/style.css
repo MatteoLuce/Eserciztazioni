@@ -1,0 +1,79 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: white;
+}
+
+section{
+    text-align: center;
+    padding-top: 15px;
+}
+
+div{
+    width: 300px;
+    display: inline-block;
+    position: relative;
+    
+}
+
+.greendisc, .reddisc{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+
+}
+.greendisc{
+    
+    background-color: green;
+}
+
+.reddisc{
+    background-color: red;
+}
+
+.love{
+    display: none;
+    
+}
+
+div:hover > .love{
+    display: inline-block;
+    position: absolute;
+    left: 48%;
+    bottom: 3%;
+    color: red;
+    font-size: 30px;
+    border: none;
+    background-color: transparent;
+    
+}
+
+footer{
+    text-align: center;
+    background-color: lightgray;
+    margin-top: 45px;
+    margin-left: 26%;
+    margin-right: 26%;
+}
+
+.buttons{
+    padding: 6px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#info{
+    margin-left: 47.5%;
+    
+}
+
+#info:hover{
+    background-color: lightgrey;
+    
+}
+
+div:hover{
+    border-top: red solid 2px;
+}

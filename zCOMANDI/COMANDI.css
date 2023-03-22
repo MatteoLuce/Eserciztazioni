@@ -1,0 +1,40 @@
+
+------------
+FLEXBOX comandi contenitore
+
+.c{display: flex;}  lo assegno ad un contenitore per dare agli elementi all interno le proprietà flex
+
+.c{flex-direction: row o column; ;} per metterli in colonna o riga, di default è row
+
+Usando questo comando di default senza altre proprietà gli elemnti all'interno si stringeranno per stare in una singola colonna o riga
+
+.c{flex-wrap: wrap} per mantenere le dimensioni degli elementi all'interno e permettere che se eccedano vadano a creare una nuova row o column
+
+.c{justify-content: varie opzioni;} per la dirzione in cui si incolonnerà o si metterà in row gli elementi in abse all asse opposto della row o column
+
+.c{align-items: varie opzioni;} per la direzioni in cui si sistemerà ma rispetto all asse opposto di justify-conten
+
+-----------
+
+FLEXBOX comandi item
+
+.c{flex-basis: varie opzioni;} imposta altezza o largehzza in base all asse di riferimento (cambia tra column e row)
+
+.c{flex-grow: numero qualsiasi} imposta quanto un item puo espandersi rispetto agli altri items presenti nel flexbox (0 non puo espandersi, 2 fino a due volte della dimensione delgi altri item, ecc...)
+
+.c{flex-shrink: numero qualsiasi} stessa cosa del flex-grow ma al contrario, quanto un elemento puo stringersi, 1 è default, 0 imposta che non possono stringersi modificando la forma inziziale, ecc...
+
+.c{align-self: vari;} come align-items ma per modificare un solo elemento del container 
+
+.c{order: numero qualsiasi;}  per spostare di ordine un item nella flexbox, con un valore negativo va all'inzio di tutti gli item
+
+------------
+
+MEDIA QUERY (responsive sites)
+
+@media screen and (condizioni nel quale si verificherà) {modifiche}  applicherà le modifiche css solo se le condizioni sono prensenti
+
+VA abbinato con un comando html nel <head> ---> <meta name="viewport" content="width=device-width, initial-scale=1.0"> che permette al sito di vedeere le diemnsioni del dispositivo in uso
+
+
+

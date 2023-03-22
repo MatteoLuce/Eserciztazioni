@@ -1,0 +1,15 @@
+header{
+    text-align: center;
+    background-color: lightgray;
+}
+
+h2{
+    color: orange;
+}
+
+article{margin-left: 9px;}
+
+footer{
+
+    text-align: center;
+}

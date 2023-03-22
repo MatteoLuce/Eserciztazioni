@@ -1,0 +1,73 @@
+body{
+    
+    background-image: url(MaterialeEsercizioLim/background.jpg);
+    background-size:cover;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-left: 19%;
+    margin-right: 19%;
+    margin-top: 2%;
+}
+
+
+#box{
+
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 100px;
+}
+
+header, nav{
+    text-align: center;
+}
+
+header{
+    color: rgb(54, 212, 22);
+}
+
+h1{
+    height: 22px;
+}
+
+nav{
+
+    background-color: rgb(54, 212, 22);
+    height: 40px;
+}
+
+.buttons{
+    padding: 10px;
+}
+
+main{
+    color: white;
+}
+
+h2{
+    display: inline-block;
+    margin-bottom: 1px;
+}
+
+p{
+    margin-top: 1px;
+    margin-bottom: 1px;
+}
+
+#orangebar{
+    background-color: orange;
+    width: 35%;
+}
+
+#greenbar{
+    background-color: rgb(54, 212, 22);
+    width: 60%;
+}
+
+#redbar{
+    background-color: rgb(150, 13, 13);
+    width: 13%;
+}
+
+#orangebar, #greenbar, #redbar{
+    border-radius: 5px;
+    height: 20px;
+}
+
