@@ -7,7 +7,7 @@ backBtn.addEventListener('click', function(){
 window.addEventListener('scroll', function(){
     let posY = window.scrollY
 
-    if(posY > 100){
+    if(posY > 200){
         backBtn.style.display = 'block'
     } else {
         backBtn.style.display = 'none'
